@@ -1,0 +1,22 @@
+info:
+  name: login
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://{{host}}:{{port}}/LSMI/api/login
+  body:
+    type: json
+    data: |-
+      {
+          "email": "vironoj486@cotasen.com",
+          "password": "@Asdf12345"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

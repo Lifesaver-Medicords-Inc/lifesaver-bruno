@@ -1,0 +1,14 @@
+info:
+  name: Encryption
+  type: folder
+  seq: 1
+
+request:
+  headers:
+    - name: Authorization
+      value: ""
+    - name: Cache-Control
+      value: ""
+    - name: Content-Type
+      value: ""
+  auth: inherit

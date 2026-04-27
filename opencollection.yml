@@ -1,0 +1,36 @@
+opencollection: 1.0.0
+
+info:
+  name: lifesaver
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  headers:
+    - name: Authorization
+      value: Basic YWRtaW46YWRtaW4=
+    - name: Cache-Control
+      value: no-cache
+    - name: Content-Type
+      value: application/json
+    - name: Accept
+      value: "*/*"
+  auth:
+    type: basic
+    username: admin
+    password: admin
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git

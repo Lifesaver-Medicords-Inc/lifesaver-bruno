@@ -1,0 +1,12 @@
+info:
+  name: protected
+  type: folder
+  seq: 1
+
+request:
+  headers:
+    - name: host
+      value: 10.41.165.31
+    - name: port
+      value: "3000"
+  auth: inherit

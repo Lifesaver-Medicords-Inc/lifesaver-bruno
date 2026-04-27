@@ -1,0 +1,24 @@
+info:
+  name: Untitled
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://10.47.158.231:9999/LSMI/health
+  headers:
+    - name: ""
+      value: ""
+  body:
+    type: json
+    data: |-
+      {
+        id
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
