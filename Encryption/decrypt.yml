@@ -1,0 +1,39 @@
+info:
+  name: decrypt
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://{{host}}:{{port}}/LSMI/pdecrypt
+  headers:
+    - name: Authorization
+      value: Basic YWRtaW46YWRtaW4=
+    - name: Content-Type
+      value: application/json
+    - name: Accept
+      value: "*/*"
+    - name: Accept-Encoding
+      value: gzip, deflate, br
+    - name: Connection
+      value: keep-alive
+    - name: Cache-Control
+      value: no-cache
+  body:
+    type: json
+    data: |-
+      {
+      "data":
+      "DNFWPg2XFngAodDgvHSjEfcW5Q6OZki3OP4RdSU0YOW6hU9bKsIK61sFNaiR2iEfBWdbb8TyvFcyRdLTF-oxHQ==",
+        "key": "wyA0QOugCwuBgmU/J7nDM09PmsQkpmKJ"
+      }
+  auth:
+    type: basic
+    username: admin
+    password: asdmin
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
