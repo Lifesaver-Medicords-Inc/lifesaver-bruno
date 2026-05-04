@@ -23,9 +23,8 @@ http:
     type: json
     data: |-
       {
-      "data":
-      "DNFWPg2XFngAodDgvHSjEfcW5Q6OZki3OP4RdSU0YOW6hU9bKsIK61sFNaiR2iEfBWdbb8TyvFcyRdLTF-oxHQ==",
-        "key": "wyA0QOugCwuBgmU/J7nDM09PmsQkpmKJ"
+        "data":"MBtArBdmrAtiE96T2cNNTNJNPbALD2cyH7FvEDEtJbA=",
+        "key": "D0JXTzCezedtL7QmJ8cYOzW1IfwoYhk7"
       }
   auth:
     type: basic
