@@ -1,0 +1,38 @@
+info:
+  name: get_doctor_schedule
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://{{host}}:{{port}}/LSMI/api/doctor/schedule/details
+  headers:
+    - name: Authorization
+      value: " Basic YWRtaW46YWRtaW4="
+    - name: Content-Type
+      value: application/json
+    - name: Accept
+      value: "*/*"
+    - name: Accept-Encoding
+      value: gzip, deflate, br
+    - name: Connection
+      value: keep-alive
+    - name: Cache-Control
+      value: no-cache
+  auth:
+    type: basic
+    username: admin
+    password: asdmin
+
+runtime:
+  variables:
+    - name: host
+      value: 10.199.60.241
+    - name: port
+      value: "9999"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
