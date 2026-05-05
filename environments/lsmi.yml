@@ -1,6 +1,6 @@
 name: lsmi
 variables:
   - name: host
-    value: 10.199.60.231
+    value: 10.225.153.231
   - name: port
     value: "9999"
