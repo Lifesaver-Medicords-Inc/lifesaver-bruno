@@ -1,11 +1,11 @@
 info:
-  name: join_queuing
+  name: post_doctor_schedule
   type: http
-  seq: 1
+  seq: 2
 
 http:
   method: POST
-  url: http://{{host}}:{{port}}/LSMI/api/telemed/queue/join
+  url: http://{{host}}:{{port}}/LSMI/api/doctor/schedule/details
   headers:
     - name: Authorization
       value: " Basic YWRtaW46YWRtaW4="
@@ -19,16 +19,6 @@ http:
       value: keep-alive
     - name: Cache-Control
       value: no-cache
-  body:
-    type: json
-    data: |-
-      {
-        "hospital_id": 1,
-        "department_id": 2,
-        "joined_at": "10:00",
-        "profile_id": 13,
-        "profile_name": "Budji Solano" 
-      }
   auth:
     type: basic
     username: admin

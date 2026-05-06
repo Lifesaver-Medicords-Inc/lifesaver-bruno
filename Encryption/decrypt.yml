@@ -23,13 +23,20 @@ http:
     type: json
     data: |-
       {
-        "data":"MBtArBdmrAtiE96T2cNNTNJNPbALD2cyH7FvEDEtJbA=",
-        "key": "D0JXTzCezedtL7QmJ8cYOzW1IfwoYhk7"
+        "data":"xpgieHi5Vaf4KQ1Z_-iYEGkCLvxpY1D3qeXA-smrPuU=",
+        "key": "dXNuQ1M47YwJz2qPZBCb6wrO9noe16G2"
       }
   auth:
     type: basic
     username: admin
     password: asdmin
+
+runtime:
+  variables:
+    - name: port
+      value: "9999"
+    - name: host
+      value: 10.225.153.241
 
 settings:
   encodeUrl: true
