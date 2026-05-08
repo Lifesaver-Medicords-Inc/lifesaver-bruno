@@ -1,0 +1,25 @@
+info:
+  name: check
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://{{host}}:{{port}}/LSMI/api/telemed/lobby/check?hospital_id=1&department_id=1
+  params:
+    - name: hospital_id
+      value: "1"
+      type: query
+    - name: department_id
+      value: "1"
+      type: query
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
