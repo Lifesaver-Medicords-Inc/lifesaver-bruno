@@ -1,0 +1,19 @@
+info:
+  name: invalidate
+  type: http
+  seq: 3
+
+http:
+  method: DELETE
+  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability?doctor_id=3
+  params:
+    - name: doctor_id
+      value: "3"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

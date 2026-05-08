@@ -27,7 +27,7 @@ http:
         "department_id": 2,
         "joined_at": "10:00",
         "profile_id": 13,
-        "profile_name": "Budji Solano" 
+        "profile_name": "Vince Timbas" 
       }
   auth:
     type: basic

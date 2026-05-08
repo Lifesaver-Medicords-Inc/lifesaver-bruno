@@ -1,0 +1,35 @@
+info:
+  name: stream_availability_by_hospital_department
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability/stream?hospital_id=1&department_id=1
+  headers:
+    - name: Authorization
+      value: Basic YWRtaW46YWRtaW4=
+    - name: Content-Type
+      value: application/json
+    - name: Accept
+      value: "*/*"
+    - name: Accept-Encoding
+      value: gzip, deflate, br
+    - name: Connection
+      value: keep-alive
+    - name: Cache-Control
+      value: no-cache
+  params:
+    - name: hospital_id
+      value: "1"
+      type: query
+    - name: department_id
+      value: "1"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
