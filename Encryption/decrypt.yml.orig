@@ -1,0 +1,50 @@
+info:
+  name: decrypt
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://{{host}}:{{port}}/LSMI/pdecrypt
+  headers:
+    - name: Authorization
+      value: Basic YWRtaW46YWRtaW4=
+    - name: Content-Type
+      value: application/json
+    - name: Accept
+      value: "*/*"
+    - name: Accept-Encoding
+      value: gzip, deflate, br
+    - name: Connection
+      value: keep-alive
+    - name: Cache-Control
+      value: no-cache
+  body:
+    type: json
+    data: |-
+      {
+<<<<<<< HEAD
+        "data":"xpgieHi5Vaf4KQ1Z_-iYEGkCLvxpY1D3qeXA-smrPuU=",
+        "key": "dXNuQ1M47YwJz2qPZBCb6wrO9noe16G2"
+=======
+        "data": "G5QjVuqIP6MhqVblOG0yhWSWaZmi_Ld88t-nMvpxOjGqS639fSix0OCAAYTmpRUDu-YTDMkv-jwkefYCWn91AXgq3RC0HhCAt9_lWx_IVo3vZGSIE-Us0khGsS14TEw5Fr3DxwSSm5jL1tJdruE_My1mRr5MCG8uOKkFRfnbUpljm2_Xxe41QpDm4I_zI5Teim6bN7wje_y30ZNxxl8p3nNU1V8QWIOGiDwMe6CZfLS-fJa5iaW1rOTq_c8kASWQpBSeWz_mjP--hVMYdMVbf3f88SmX45mgJfqpVa_MJeBJze_typ9DA-TYjLYa66gDhgnEXtppST2k3VRqEfPvgydzZm67sKQva8pU2EZ4XP_ofWkgYFsikFNls-ZORVI__GdJWyMpGKFcXUDdYTgRblChQ9C3IzYdZ92MvwXVeos2lcq9bn_sVrNgIx6E3bRYwu1GX9O3swCB0aYlsciOTgnceluaTh6dawD-lt7UCkPYYg02iDC1KMCE4kGrp8g1fJ0VAzwBB606TigvonW4ApFgudYRkJ-a2A1mcFtXPJM4D6acH54nevmmsDgdjsi1UnhpZ4WQ8DvTOr1NXk9zXtj0VUz4vg8FXFrCKkAzpEG7QJZ0kt5LdDk9uyc33fst06jk8KPEvZQ93wGZkB_xzhDV3MbI-kzAl47lzWPidOKHZ1RyVZKueflKwe0xUE1c38t3oOu4kncx9rWnR-6g6hgLGYozoVYqg8ljCSDK6SjwsvAbxdQul3ujnrqJFiO8xLm9wWTfCbF3ntpvhUvJfLZyZkfDinpZ0kUUPLPLST6oe4kvUiACzF_j8NshD671LyIp8DIunjWWzdZ7I3GPV31LXDR4hyFgeODGdpCisWnF9lL2Pft6lBFgctVEFFBaFDi8MAnbmMyvItAIblFKLCydghCxVvGd6RltokPqB5w7vPdZRB0JbF5dMLUUAVsmYFAP8RqoZvEIoe4xgERM5k2B3wKYEksbjdIfZXlBKf_pSue1gWGjAXP1xIFYJ-dUEV2ajd8IFtZeSxLZsfuztXkQC-7NlozRXPcfJo3aefMYsACog78ZcdcEHnHyN40Ub8TWAs43-7oBl_-RnC9CcKMlMOBNooi89l0gwJZh4m9L0Gj0xL1GCGfl4kjgLCtTG40qxAKrKS5t7gGDSueG5J6FZkmQZqvCpMJdUBx8iatWtROh4g4GrCTmHKcsickgo6m1N8zLPXhFK8TnJPf9fZHfxSpeqQR7pcWxf8obN6y5yb-xCFOdXQKznzVS4qF5-AWV1g4dCpg1IHUujLpU2s5On3Fv5WDhACIp9yce9fiZ_m7R1NPtPPmDzQrLQWhTlXlRbVIB9FmuxAYPgSKbFTVMPniooPnknZIbJeF223RKQunGXp6KKTEMNgTbKh6MujjdwVEBB8LUYgLdvipGOSv4sMkuQYoxPSCUU2ElwQSs_r80De0cxO4g4C53MrXL2ueaDU5sI5kYBQfjlsfVFTv-m77bDeNyUbWilhr1bhhqPtRCNfBn0dKFlupoU1welK4rDNewrF3iVMKCEh2YL2mQHlT2gJ0VB99YmY2Oq61j3si-U4T8d76ItV_4b9M7Mk585D_iOthCKaM7a19awcn75UBdMV65AIeY3RlbZOLC4ahErKqzQB10K3EQ-Us8z-aZGzvhcOMh9FpyuW8Q6QssJhJf7NAaSP_PaydZBYJkv4ixs1HvAu-ZXlbgCYLayxKbCxRIIBZ2dO_H0z7NMzF0ok4ijR11wBmXGUn87dtu4jEB2gJpVJSvYI-uL7SotClwLk7mXzZYKKWyc7qSiwVsLEMVSBuzF1PgB57mIVeGxUvJYYpjJUOIR27iuyJGr6ex9wuAjudUAA8dU1PBPapXfhOaWanMZ13UIXD5zqdzH7Qd4E5OtVTPH4gOQtN8KWPnszgUZjcqklLL30ECe4SnLk9XS4ueewZi3Ow73Ikx8je71uU123Oz9kxzJkT5lZh7-yGlhHnmbeQtnxm0s1K9WWW4BgQK_LEbCqH1_QqDdb_by68s7EtxxK4mqfQ9wN2BhD2pPXBaT5XlKR6UjaBMCV-u0W379Qy0-E2XHkJDjdajfqTaUPwy5spMUeXWfZHq_BBdDjByKjS-cMeHUytL2fVl0jPQF7TWdQejbJqHlkFD4fjEo7r_WbDcJQxi6a395VRrkGM1Fb4jxdxVLj81W4rIIw2wysoasxcD_VXPAX5ZJ0hFW5WgY-I3ahBhAhuuITJbF3N3qP-axgh-VA==",
+        "key": "DFqFDURjBR1d3bsXiIiqvMCf7oYWKtVv"
+>>>>>>> ab5c7bb50ba7898c6378547de7fe665d25bd5f96
+      }
+  auth:
+    type: basic
+    username: admin
+    password: asdmin
+
+runtime:
+  variables:
+    - name: port
+      value: "9999"
+    - name: host
+      value: 10.225.153.241
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
