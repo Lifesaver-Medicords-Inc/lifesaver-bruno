@@ -5,7 +5,11 @@ info:
 
 http:
   method: DELETE
-  url: ""
+  url: http://{{host}}:{{port}}/LSMI/api/admin/redis/key?key=queue:hospital:1:dept:1
+  params:
+    - name: key
+      value: queue:hospital:1:dept:1
+      type: query
   auth: inherit
 
 settings:
