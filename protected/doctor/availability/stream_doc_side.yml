@@ -1,11 +1,11 @@
 info:
-  name: stream_availability_by_hospital_department
+  name: stream_doc_side
   type: http
   seq: 2
 
 http:
   method: GET
-  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability/stream?hospital_id=1&department_id=1
+  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability/stream/doctor?hospital_id=1&department_id=1
   headers:
     - name: Authorization
       value: Basic YWRtaW46YWRtaW4=
@@ -26,6 +26,21 @@ http:
     - name: department_id
       value: "1"
       type: query
+  body:
+    type: json
+    data: |-
+      event:availability
+      data: [
+        {
+          "doctor_id": 6,
+          "name": "Patrick",
+          "hospital_id": 1,
+          "department_id": 1,
+          "is_active": true,
+          "status": "online",
+          "updated_at": "2026-05-08T01:59:57Z"
+        }
+      ]
   auth: inherit
 
 settings:

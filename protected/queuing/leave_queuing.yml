@@ -25,7 +25,7 @@ http:
       {
         "hospital_id": 1,
         "department_id": 1,
-        "profile_id": 24 
+        "profile_id": 13 
       }
   auth:
     type: basic
@@ -35,9 +35,9 @@ http:
 runtime:
   variables:
     - name: host
-      value: 10.225.153.241
+      value: 10.225.153.231
     - name: port
-      value: "9999"
+      value: "443"
 
 settings:
   encodeUrl: true

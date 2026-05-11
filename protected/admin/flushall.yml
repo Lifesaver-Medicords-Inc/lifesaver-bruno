@@ -1,0 +1,15 @@
+info:
+  name: flushall
+  type: http
+  seq: 2
+
+http:
+  method: DELETE
+  url: http://{{host}}:{{port}}/LSMI/api/admin/redis/flushall
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

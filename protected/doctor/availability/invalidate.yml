@@ -5,10 +5,10 @@ info:
 
 http:
   method: DELETE
-  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability?doctor_id=3
+  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability?doctor_id=6
   params:
     - name: doctor_id
-      value: "3"
+      value: "6"
       type: query
   auth: inherit
 

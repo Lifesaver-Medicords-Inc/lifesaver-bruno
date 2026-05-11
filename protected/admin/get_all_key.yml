@@ -1,11 +1,11 @@
 info:
-  name: get_all_availability
+  name: get_all_key
   type: http
-  seq: 4
+  seq: 2
 
 http:
   method: GET
-  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability/
+  url: http://{{host}}:{{port}}/LSMI/api/admin/redis/keys
   auth: inherit
 
 settings:

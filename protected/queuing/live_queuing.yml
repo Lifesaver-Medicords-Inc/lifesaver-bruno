@@ -34,7 +34,7 @@ http:
 runtime:
   variables:
     - name: host
-      value: 10.225.153.241
+      value: 10.225.153.231
     - name: port
       value: "9999"
 

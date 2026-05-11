@@ -1,0 +1,15 @@
+info:
+  name: flushall
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://{{host}}:{{port}}/LSMI/api/telemed/availability/flush
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

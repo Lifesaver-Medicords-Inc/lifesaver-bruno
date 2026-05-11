@@ -24,7 +24,7 @@ http:
     data: |-
       {
         "hospital_id": 1,
-        "department_id": 2,
+        "department_id": 1,
         "joined_at": "10:00",
         "profile_id": 13,
         "profile_name": "Vince Timbas" 
@@ -37,7 +37,7 @@ http:
 runtime:
   variables:
     - name: host
-      value: 10.225.153.241
+      value: 10.225.153.231
     - name: port
       value: "9999"
 
