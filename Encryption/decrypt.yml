@@ -23,7 +23,7 @@ http:
     type: json
     data: |-
       {
-        "data":"xpgieHi5Vaf4KQ1Z_-iYEGkCLvxpY1D3qeXA-smrPuU=",
+        "data":"dogt9qY7LE81icjLloMrdCG-64MSr4V7jspQWfJvkx4=",
         "key": "dXNuQ1M47YwJz2qPZBCb6wrO9noe16G2"
       }
   auth:
@@ -36,7 +36,7 @@ runtime:
     - name: port
       value: "9999"
     - name: host
-      value: 10.225.153.241
+      value: 10.225.153.231
 
 settings:
   encodeUrl: true

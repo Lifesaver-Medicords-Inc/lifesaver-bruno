@@ -19,6 +19,8 @@ http:
       value: keep-alive
     - name: Cache-Control
       value: no-cache
+    - name: Cookie
+      value: "{{cookie}}"
   auth:
     type: basic
     username: admin

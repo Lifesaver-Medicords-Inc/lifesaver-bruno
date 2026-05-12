@@ -10,11 +10,11 @@ http:
     type: json
     data: |-
       {
-          "doctor_id": 5,
-          "name": "Ralph Lester",
+          "doctor_id": 6,
+          "name": "Gideon",
           "hospital_id": 1,
           "department_id": 1,
-          "is_active": true
+          "is_active": false
       }
   auth: inherit
 
