@@ -1,24 +1,24 @@
 info:
-  name: get_doctor_schedule
+  name: get_hospitals_queue
   type: http
   seq: 1
 
 http:
   method: GET
-  url: http://{{host}}:{{port}}/LSMI/api/doctor/schedule/details
+  url: http://{{host}}:{{port}}/LSMI/api/telemed/hospital/list
   headers:
     - name: Authorization
       value: " Basic YWRtaW46YWRtaW4="
-    - name: Content-Type
-      value: application/json
     - name: Accept
       value: "*/*"
     - name: Accept-Encoding
       value: gzip, deflate, br
-    - name: Connection
-      value: keep-alive
+    - name: Content-Type
+      value: application/json
     - name: Cache-Control
       value: no-cache
+    - name: Connection
+      value: keep-alive
     - name: Cookie
       value: "{{cookie}}"
   auth:

@@ -1,0 +1,7 @@
+info:
+  name: hospital_details
+  type: folder
+  seq: 6
+
+request:
+  auth: inherit

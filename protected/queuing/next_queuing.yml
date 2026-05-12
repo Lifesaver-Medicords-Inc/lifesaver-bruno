@@ -24,7 +24,7 @@ http:
     data: |-
       {
         "hospital_id": 1,
-        "department_id": 1
+        "department_id": 2
       }
   auth:
     type: basic
