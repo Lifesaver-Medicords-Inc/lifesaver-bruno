@@ -5,8 +5,18 @@ info:
 
 request:
   headers:
-    - name: host
-      value: 10.41.165.31
-    - name: port
-      value: "3000"
+    - name: Authorization
+      value: Basic YWRtaW46YWRtaW4=
+    - name: Content-Type
+      value: application/json
+    - name: Accept
+      value: "*/*"
+    - name: Accept-Encoding
+      value: gzip, deflate, br
+    - name: Connection
+      value: keep-alive
+    - name: Cache-Control
+      value: no-cache
+    - name: Cookie
+      value: "{{cookie}}"
   auth: inherit

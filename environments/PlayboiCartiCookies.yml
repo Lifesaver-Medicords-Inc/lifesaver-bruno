@@ -1,0 +1,13 @@
+name: PlayboiCartiCookies - Copy
+color: "#CE4F3B"
+variables:
+  - name: host
+    value: 10.225.153.231
+  - name: port
+    value: "9999"
+  - name: basic_username
+    value: admin
+  - secret: true
+    name: basic_password
+  - name: cookie
+    value: 04QG4l_h1_kga5f8HA5E-Sm5KacI5K5MpL9M74aRZHtR3iGdNI_iyTD94wELD2Ur1=PLsVm2yRfArF5pXAYtIOYZuK1rDk9en5; 9ElmzRIh8mQRU6vbRSPJnHRePzov06PImNQdkzFmCp6TiFfLI2LxLQTYneXxeMf=lPQoXCUpbyeBzE232CxYojNgg_SReWFcXMl3u5qzzX9PRQXm8TOtx4a6Q2d0DHIa; O2TIpGKd7dcyoJwN6QyyTJ0mlruHizUrMeHRX4=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODA2NDE3NjAsInN1YiI6W3siaWQiOjEzNjA2LCJuYW1lIjoiUGxheWJvaUNhcnRpIiwiZW1haWwiOiJ4aHloZDI1NzYyQG1pbml0dHMubmV0IiwicGFzc3dvcmQiOiIkMmEkMTAkWnBMSW9GSjAxbHZIYkRTdWlsMzVCT3dhTHpKVXFoYWtJN3FsN0NwTWxPMHBWVDVRbHlHb08iLCJ1c2VyX3R5cGUiOiJEIiwiY2FyZF9xdHkiOjAsInByb21vdGlvbmFsX21haWxzIjoiIiwicHJvZmlsZWlkIjoiODM1IiwiYmFzaWNfaW5mb19zZXRfZmxhZyI6IlkiLCJjb25maXJtZWRfZmxhZyI6IlkiLCJjaXBoZXJfa2V5IjoiZktoVXltUmRlN2JHY3R2TWEyZjdUb283T25Wb2VheklaZWJaT0ZtbGd5eXRYSW1UekFWdHBtSzVOY2xDWkJRNThna1FJTW5CTFA2NDBleVVSRUJsOEE9PSJ9XX0.NSU0TfOxy2xA7xrapoqvhwdTweqrHt4DlZBcUouTBKc

@@ -6,7 +6,8 @@ info:
 http:
   method: GET
   url: http://{{host}}:{{port}}/LSMI/api/doctor/profile
-  auth: inherit
+  auth:
+    type: basic
 
 settings:
   encodeUrl: true
