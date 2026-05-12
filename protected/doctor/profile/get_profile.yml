@@ -12,7 +12,7 @@ http:
     - name: Content-Type
       value: application/json
     - name: Accept
-      value: /
+      value: "*/*"
     - name: Accept-Encoding
       value: gzip, deflate, br
     - name: Connection
