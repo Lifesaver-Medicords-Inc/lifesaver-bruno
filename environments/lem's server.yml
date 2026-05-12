@@ -1,0 +1,10 @@
+name: lem's server
+variables:
+  - name: host
+    value: 10.225.153.231
+  - name: port
+    value: "9999"
+  - name: basic_username
+    value: admin
+  - name: basic_password
+    value: asdmin

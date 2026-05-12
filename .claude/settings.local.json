@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"f:\\\\Bruno\\\\collections\\\\lsmi\\\\lifesaver-bruno\\\\\")",
+      "Read(//f/Bruno/collections/lsmi/**)",
+      "Bash(tree -a \"f:\\\\Bruno\\\\collections\\\\lsmi\\\\lifesaver-bruno\\\\\" 2>/dev/null || find \"f:\\\\Bruno\\\\collections\\\\lsmi\\\\lifesaver-bruno\\\\\" -type d -name \"*\")"
+    ]
+  }
+}
