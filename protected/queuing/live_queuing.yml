@@ -9,16 +9,16 @@ http:
   headers:
     - name: Authorization
       value: " Basic YWRtaW46YWRtaW4="
-    - name: Content-Type
-      value: application/json
     - name: Accept
       value: "*/*"
     - name: Accept-Encoding
       value: gzip, deflate, br
-    - name: Connection
-      value: keep-alive
+    - name: Content-Type
+      value: application/json
     - name: Cache-Control
       value: no-cache
+    - name: Connection
+      value: keep-alive
   params:
     - name: hospital_id
       value: "1"
@@ -36,7 +36,7 @@ runtime:
     - name: host
       value: 10.225.153.231
     - name: port
-      value: "9999"
+      value: "443"
 
 settings:
   encodeUrl: true

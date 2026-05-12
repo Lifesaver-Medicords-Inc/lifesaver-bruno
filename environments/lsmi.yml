@@ -1,8 +1,18 @@
 name: lsmi
 variables:
   - name: host
+<<<<<<< HEAD
     value: 10.225.153.231
   - name: port
     value: "9999"
+=======
+    value: 10.225.153.241
+  - name: port
+    value: "9999"
+  - name: basic_username
+    value: admin
+  - name: basic_password
+    value: asdmin
+>>>>>>> c916e96 (feature(Queuing): add the get hospital and departments routes)
   - name: cookie
     value: 04QG4l_h1_kga5f8HA5E-Sm5KacI5K5MpL9M74aRZHtR3iGdNI_iyTD94wELD2Ur1=zkiQ2Jjy2pkN1wPAUmGOKGvN39suMUDy;9ElmzRIh8mQRU6vbRSPJnHRePzov06PImNQdkzFmCp6TiFfLI2LxLQTYneXxeMf=9M151Y4ch9dEXt8_Q_s-7LOx_HZYwWenCUGhOKuUSgchL9VVjHTTl1AO5tZOqL3M;O2TIpGKd7dcyoJwN6QyyTJ0mlruHizUrMeHRX4=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODExNDQyOTgsInN1YiI6W3siaWQiOjEzNTc3LCJuYW1lIjoiS2VubmV0aCIsImVtYWlsIjoibGlmZXNhdmVyaW50ZXJuKzAwN0BnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCQvSnFqQjFBZE11akdJNmx6Sk91Y1l1V1J2YzdHTkppbkZXbG9pTHp3c29sYVppR1A0bncwNiIsInVzZXJfdHlwZSI6IkQiLCJjYXJkX3F0eSI6MCwicHJvbW90aW9uYWxfbWFpbHMiOiIiLCJwcm9maWxlaWQiOiI4MzAiLCJiYXNpY19pbmZvX3NldF9mbGFnIjoiWSIsImNvbmZpcm1lZF9mbGFnIjoiWSIsImNpcGhlcl9rZXkiOiJCUWtHdS02Y2d0R0d6Mm1vZGh1UXRVUXZkcGk3NHFBY2ctYjE4VzQxcGswMHhMNkFuSGlyRWgzdEYxdFVyRWZMM0J2LUE5NXRKYm1XTlpqNlZWVWJuUT09In1dfQ.ZtJW2iRHtc62e5baDQBuapXbHS780ytVx17drNk1ZSs

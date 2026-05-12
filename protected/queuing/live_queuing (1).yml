@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://{{host}}:{{port}}/LSMI/api/telemed/queue/live?hospital_id=1&department_id=2
+  url: http://{{host}}:{{port}}/LSMI/api/profile/getmyprofile
   headers:
     - name: Authorization
       value: " Basic YWRtaW46YWRtaW4="
@@ -19,24 +19,33 @@ http:
       value: keep-alive
     - name: Cache-Control
       value: no-cache
-  params:
-    - name: hospital_id
-      value: "1"
-      type: query
-    - name: department_id
-      value: "2"
-      type: query
+  body:
+    type: json
+    data: |-
+      data: {
+        "department_id": 2,
+        "hospital_id": 1,
+        "queue": [
+          {
+            "joined_at": "10:00",
+            "current_position": 1,
+            "profile_id": 13,
+            "profile_name": "Budji Solano",
+            "approx_time": "~18 mins"
+          },
+          {
+            "joined_at": "10:00",
+            "current_position": 2,
+            "profile_id": 14,
+            "profile_name": "Budji Solano",
+            "approx_time": "~36 mins"
+          }
+        ]
+      }
   auth:
     type: basic
     username: admin
     password: asdmin
-
-runtime:
-  variables:
-    - name: host
-      value: 10.225.153.241
-    - name: port
-      value: "9999"
 
 settings:
   encodeUrl: true

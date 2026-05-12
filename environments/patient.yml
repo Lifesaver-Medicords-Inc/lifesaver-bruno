@@ -1,0 +1,12 @@
+name: patient
+variables:
+  - name: host
+    value: 10.225.153.241
+  - name: port
+    value: "9999"
+  - name: basic_username
+    value: admin
+  - name: basic_password
+    value: asdmin
+  - name: cookie
+    value: 04QG4l_h1_kga5f8HA5E-Sm5KacI5K5MpL9M74aRZHtR3iGdNI_iyTD94wELD2Ur1=nkXCwA1Y16MS2duMLDJSNbLvJhzBQQml;9ElmzRIh8mQRU6vbRSPJnHRePzov06PImNQdkzFmCp6TiFfLI2LxLQTYneXxeMf=K3rpFIh501O9sgHOD5n_0WlnJ2YRSAisASe6Ftcneh6sydU37a0EA7iib4xxWjy_;O2TIpGKd7dcyoJwN6QyyTJ0mlruHizUrMeHRX4=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODExNjIyMzUsInN1YiI6W3siaWQiOjEzNTI1LCJuYW1lIjoiMjIyMiIsImVtYWlsIjoibGlmZXNhdmVyaW50ZXJuKzAwMUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCRVdG9ZSHRscUdxd0xiZGtpWmYvM1dPYmNLb3BmNGJmNzQzS3hzeVFJeXBhNHhCbGxZU2R3dSIsInVzZXJfdHlwZSI6IkMiLCJjYXJkX3F0eSI6MCwicHJvbW90aW9uYWxfbWFpbHMiOiIiLCJwcm9maWxlaWQiOiIxNjQyIiwiYmFzaWNfaW5mb19zZXRfZmxhZyI6IlkiLCJjb25maXJtZWRfZmxhZyI6IlkiLCJjaXBoZXJfa2V5IjoiWl9TQlVoTkNsUTQwSllLMTVjVVFEUjZ2V05kR2R2TlhrZ3owQ0l0NWQtTGt1Q19GeVVZNjJvczVvZHppS1VZek52eGNOUDBUSTZpbk1SNzZXV2h1ZEE9PSJ9XX0.MyUsx-oDq16IYIZvC9QLEFPcOl127lxeE5ZogUUo5R8
